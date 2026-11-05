@@ -29,4 +29,5 @@ const employee = new Employee("Promel", 22000);
 const employee2 = new Employee("Hridoy", 24000);
 
 console.log(employee, employee2);
+console.log(employee instanceof Employee); // true
 
